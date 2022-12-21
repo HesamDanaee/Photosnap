@@ -30,9 +30,15 @@ export default function Pricing() {
           cta={false}
         />
         <HeroImage
-          mobile={"sm-max:bg-pricing-mobile"}
-          tablet={"sm:bg-pricing-tablet"}
-          desktop={"lg:bg-pricing"}
+          mobile={
+            "sm-max:bg-[url('/src/assets/images/new/webp-format/pricing-mobile.webp')]"
+          }
+          tablet={
+            "sm:bg-[url('/src/assets/images/new/webp-format/pricing-tablet.webp')]"
+          }
+          desktop={
+            "lg:bg-[url('/src/assets/images/new/webp-format/pricing-desktop.webp')]"
+          }
         />
       </Hero>
       <PricingContainer />

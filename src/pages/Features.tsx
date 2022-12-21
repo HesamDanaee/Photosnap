@@ -31,9 +31,15 @@ export default function Features() {
           cta={false}
         />
         <HeroImage
-          mobile={"sm-max:bg-features-bg-mobile"}
-          tablet={"sm:bg-features-bg-tablet"}
-          desktop={"lg:bg-features"}
+          mobile={
+            "sm-max:bg-[url('/src/assets/images/new/webp-format/features-mobile.webp')]"
+          }
+          tablet={
+            "sm:bg-[url('/src/assets/images/new/webp-format/features-tablet.webp')]"
+          }
+          desktop={
+            "lg:bg-[url('/src/assets/images/new/webp-format/features-desktop.webp')]"
+          }
         />
       </Hero>
       <FeatureContainer>

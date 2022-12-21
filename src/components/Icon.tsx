@@ -1,5 +1,5 @@
-import logo from "../assets/images/logo.svg";
-import w_logo from "../assets/images/logo-white.svg";
+import logo from "./../assets/images/logo.svg";
+import w_logo from "./../assets/images/logo-white.svg";
 import { Link } from "react-router-dom";
 
 export default function Icon({ footer }: { footer?: boolean }) {

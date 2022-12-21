@@ -13,7 +13,7 @@ export default function Body() {
         const { mobile, tablet, desktop } = img;
         return (
           <>
-            <Hero key={index} cardOrder={order}>
+            <Hero key={`Hero-${index}`} cardOrder={order}>
               <HeroText
                 title={title}
                 text={text}
@@ -21,8 +21,14 @@ export default function Body() {
                 bg={bg}
                 color={color}
                 bar={index === 0 && true}
+                key={`text-${index}`}
               />
-              <HeroImage mobile={mobile} tablet={tablet} desktop={desktop} />
+              <HeroImage
+                key={`image-${index}`}
+                mobile={mobile}
+                tablet={tablet}
+                desktop={desktop}
+              />
             </Hero>
           </>
         );
@@ -31,7 +37,12 @@ export default function Body() {
       <FeatureContainer>
         {featuresData.map(({ title, text, img }, index) => {
           return (
-            <FeatureCard key={index} title={title} text={text} src={img} />
+            <FeatureCard
+              key={`FeatureCard_${index}`}
+              title={title}
+              text={text}
+              src={img}
+            />
           );
         })}
       </FeatureContainer>

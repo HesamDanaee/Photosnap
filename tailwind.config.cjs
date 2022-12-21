@@ -2,6 +2,8 @@
 module.exports = {
   content: [
     "./index.html",
+    "./src/Styles/main.css",
+    "./src/assets/images/new/webp-format/*.webp",
     "./src/*.{js,ts,jsx,tsx}",
     "./src/components/Header/*.{js,ts,jsx,tsx}",
     "./src/pages/**/**/**/*.{js,ts,jsx,tsx}",
@@ -17,27 +19,27 @@ module.exports = {
     extend: {
       backgroundImage: {
         "create-and-share-mobile":
-          "url('./src/assets/images/new/webp-format/journalist-mobile.webp)",
+          "url('src/assets/images/new/webp-format/journalist-mobile.webp)",
         "create-and-share-tablet":
-          "url('./src/assets/images/new/webp-format/journalist-tablet.webp')",
+          "url('src/assets/images/new/webp-format/journalist-tablet.webp')",
         "create-and-share":
-          "url('./src/assets/images/new/webp-format/journalist-desktop.webp')",
+          "url('src/assets/images/new/webp-format/journalist-desktop.webp')",
         "18-days-voyage-mobile":
-          "url('./src/assets/images/new/webp-format/18-days-voyage-mobile.webp')",
+          "url('src/assets/images/new/webp-format/18-days-voyage-mobile.webp')",
         "18-days-voyage":
-          "url('./src/assets/images/new/webp-format/18-days-voyage-tablet.webp')",
+          "url('src/assets/images/new/webp-format/18-days-voyage-tablet.webp')",
         "architecturals-mobile":
-          "url('./src/assets/images/new/webp-format/architecturals-mobile.webp')",
+          "url('src/assets/images/new/webp-format/architecturals-mobile.webp')",
         architecturals:
-          "url('./src/assets/images/new/webp-format/architecturals-tablet.webp')",
+          "url('src/assets/images/new/webp-format/architecturals-tablet.webp')",
         "beautiful-stories-mobile":
-          "url('./src/assets/images/new/webp-format/beautiful-stories-mobile.webp')",
+          "url('src/assets/images/new/webp-format/beautiful-stories-mobile.webp')",
         "beautiful-stories-tablet":
-          "url('./src/assets/images/new/webp-format/beautiful-stories-tablet.webp')",
+          "url('src/assets/images/new/webp-format/beautiful-stories-tablet.webp')",
         "beautiful-stories":
-          "url('./src/assets/images/new/webp-format/beautiful-stories-desktop.webp')",
+          "url('src/assets/images/new/webp-format/beautiful-stories-desktop.webp')",
         "behind-the-waves-mobile":
-          "url('./src/assets/images/new/webp-format/behind-the-waves-mobile.webp')",
+          "url('src/assets/images/new/webp-format/behind-the-waves-mobile.webp')",
         "behind-the-waves":
           "url('./src/assets/images/new/webp-format/behind-the-waves-tablet.webp')",
         "bg-beta-mobile":
@@ -65,10 +67,11 @@ module.exports = {
         "designed-for-everyone":
           "url('./src/assets/images/new/webp-format/designed-for-everyone-desktop.webp')",
         "features-bg-mobile":
-          "url('./src/assets/images/features-bg-mobile.jpg')",
+          "url('./src/assets/images/new/webp-format/features-mobile.webp')",
         "features-bg-tablet":
-          "url('./src/assets/images/features-bg-tablet.jpg')",
-        "features-bg": "url('./src/assets/images/features-bg.jpg')",
+          "url('./src/assets/images/new/webp-format/features-tablet.webp')",
+        "features-bg":
+          "url('./src/assets/new/webp-format/features-desktop.webp')",
         "king-of-africa-mobile":
           "url('./src/assets/images/new/webp-format/king-of-africa-mobile.webp')",
         "king-of-africa":
@@ -91,9 +94,12 @@ module.exports = {
           "url('./src/assets/images/new/webp-format/mountains-mobile.webp')",
         mountains:
           "url('./src/assets/images/new/webp-format/mountains-tablet.webp')",
-        "pricing-mobile": "url('./src/assets/images/pricing-bg-mobile.jpg')",
-        "pricing-tablet": "url('./src/assets/images/pricing-bg-tablet.jpg')",
-        pricing: "url('./src/assets/images/pricing-bg.jpg')",
+        "pricing-mobile":
+          "url('./src/assets/images/new/webp-format/pricing-mobile.webp')",
+        "pricing-tablet":
+          "url('./src/assets/images/new/webp-format/pricing-tablet.webp')",
+        pricing:
+          "url('./src/assets/images/new/webp-format/pricing-desktop.webp')",
         "rage-of-the-sea-mobile":
           "url('./src/assets/images/new/webp-format/rage-of-the-sea-mobile.webp')",
         "rage-of-the-sea":

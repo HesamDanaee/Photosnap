@@ -9,7 +9,7 @@ export default function Hero({
 }) {
   return (
     <section
-      className={`flex w-full sm:h-[55vh] sm-max:h-[90vh] ${cardOrder} relative flex-wrap items-center sm:flex-nowrap`}
+      className={`flex w-full sm:h-[60vh] sm-max:h-auto ${cardOrder} relative flex-wrap items-center sm:flex-nowrap`}
     >
       {children}
     </section>

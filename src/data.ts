@@ -14,9 +14,9 @@ const heroData = [
     bg: "bg-black",
     color: "text-white",
     img: {
-      mobile: "sm-max:bg-create-and-share",
-      tablet: "sm:bg-create-and-share-tablet",
-      desktop: "lg:bg-create-and-share",
+      mobile: "sm-max:bg-[url('/src/assets/images/new/journalist-mobile.jpg')]",
+      tablet: "sm:bg-[url('/src/assets/images/new/journalist-tablet.jpg')]",
+      desktop: "lg:bg-[url('/src/assets/images/new/journalist-desktop.jpg')]",
     },
   },
   {
@@ -27,9 +27,12 @@ const heroData = [
     bg: "bg-white",
     color: "text-black",
     img: {
-      mobile: "sm-max:bg-beautiful-stories-mobile",
-      tablet: "sm:bg-beautiful-stories-tablet",
-      desktop: "lg:bg-beautiful-stories",
+      mobile:
+        "sm-max:bg-[url('/src/assets/images/new/webp-format/beautiful-stories-mobile.webp')]",
+      tablet:
+        "sm:bg-[url('/src/assets/images/new/webp-format/beautiful-stories-tablet.webp')]",
+      desktop:
+        "lg:bg-[url('/src/assets/images/new/webp-format/beautiful-stories-desktop.webp')]",
     },
   },
   {
@@ -40,9 +43,12 @@ const heroData = [
     bg: "bg-white",
     color: "text-black",
     img: {
-      mobile: "sm-max:bg-designed-for-everyone-mobile",
-      tablet: "sm:bg-designed-for-everyone-tablet",
-      desktop: "lg:bg-designed-for-everyone",
+      mobile:
+        "sm-max:bg-[url('/src/assets/images/new/webp-format/designed-for-everyone-mobile.webp')]",
+      tablet:
+        "sm:bg-[url('/src/assets/images/new/webp-format/designed-for-everyone-tablet.webp')]",
+      desktop:
+        "lg:bg-[url('/src/assets/images/new/webp-format/designed-for-everyone-desktop.webp')]",
     },
   },
 ];
@@ -52,32 +58,40 @@ const cardsData = [
     title: "The Mountains",
     text: "by John Appleseed",
     img: {
-      mobile: "sm-max:bg-mountains-mobile",
-      tablet: "bg-mountains",
+      mobile:
+        "sm-max:bg-[url('/src/assets/images/new/webp-format/mountains-mobile.webp')]",
+      tablet:
+        "bg-[url('/src/assets/images/new/webp-format/mountains-tablet.webp')]",
     },
   },
   {
     title: "Sunset Cityscapes",
     text: "by Benjamin Cruz",
     img: {
-      mobile: "sm-max:bg-cityscapes",
-      tablet: "bg-cityscapes",
+      mobile:
+        "sm-max:bg-[url('/src/assets/images/new/webp-format/cityscapes-mobile.webp')]",
+      tablet:
+        "bg-[url('/src/assets/images/new/webp-format/cityscapes-tablet.webp')]",
     },
   },
   {
     title: "18 Days Voyage",
     text: "by Alexei Borodin",
     img: {
-      mobile: "sm-max:bg-18-days-voyage-mobile",
-      tablet: "bg-18-days-voyage",
+      mobile:
+        "sm-max:bg-[url('/src/assets/images/new/webp-format/18-days-voyage-mobile.webp')]",
+      tablet:
+        "bg-[url('/src/assets/images/new/webp-format/18-days-voyage-tablet.webp')]",
     },
   },
   {
     title: "Architecturals",
     text: "by Samantha Brooke",
     img: {
-      mobile: "sm-max:bg-architecturals-mobile",
-      tablet: "bg-architecturals",
+      mobile:
+        "sm-max:bg-[url('/src/assets/images/new/webp-format/architecturals-mobile.webp')]",
+      tablet:
+        "bg-[url('/src/assets/images/new/webp-format/architecturals-tablet.webp')]",
     },
   },
 ];
@@ -125,96 +139,120 @@ const storiesData = [
     title: "World Tour 2019",
     text: "by Timothy Wagner",
     img: {
-      mobile: "sm-max:bg-world-tour",
-      tablet: "sm:bg-world-tour",
+      mobile:
+        "sm-max:bg-[url('/src/assets/images/new/webp-format/world-tour-mobile.webp')]",
+      tablet:
+        "sm:bg-[url('/src/assets/images/new/webp-format/world-tour-tablet.webp')]",
     },
   },
   {
     title: "Unforeseen Corners",
     text: "by William Malcom",
     img: {
-      mobile: "sm-max:bg-unforeseen-corners",
-      tablet: "sm:bg-unforeseen-corners",
+      mobile:
+        "sm-max:bg-[url('/src/assets/images/new/webp-format/unforeseen-mobile.webp')]",
+      tablet:
+        "sm:bg-[url('/src/assets/images/new/webp-format/unforeseen-tablet.webp')]",
     },
   },
   {
     title: "King on Africa: Part II",
     text: "by Tim Hillenburg",
     img: {
-      mobile: "sm-max:bg-king-of-africa",
-      tablet: "sm:bg-king-of-africa",
+      mobile:
+        "sm-max:bg-[url('/src/assets/images/new/webp-format/king-of-africa-mobile.webp')]",
+      tablet:
+        "sm:bg-[url('/src/assets/images/new/webp-format/king-of-africa-tablet.webp')]",
     },
   },
   {
     title: "The Trip to Nowhere",
     text: "by Felicia Rourke",
     img: {
-      mobile: "sm-max:bg-trip-to-nowhere",
-      tablet: "sm:bg-trip-to-nowhere",
+      mobile:
+        "sm-max:bg-[url('/src/assets/images/new/webp-format/nowhere-island-mobile.webp')]",
+      tablet:
+        "sm:bg-[url('/src/assets/images/new/webp-format/nowhere-island-tablet.webp')]",
     },
   },
   {
     title: "Rage of The Sea",
     text: "by Mohammed Abdul",
     img: {
-      mobile: "sm-max:bg-rage-of-the-sea",
-      tablet: "sm:bg-rage-of-the-sea",
+      mobile:
+        "sm-max:bg-[url('/src/assets/images/new/webp-format/rage-of-the-sea-mobile.webp')]",
+      tablet:
+        "sm:bg-[url('/src/assets/images/new/webp-format/rage-of-the-sea-tablet.webp')]",
     },
   },
   {
     title: "Running Free",
     text: "by Michelle",
     img: {
-      mobile: "sm-max:bg-running-free",
-      tablet: "sm:bg-running-free",
+      mobile:
+        "sm-max:bg-[url('/src/assets/images/new/webp-format/running-free-mobile.webp')]",
+      tablet:
+        "sm:bg-[url('/src/assets/images/new/webp-format/running-free-tablet.webp')]",
     },
   },
   {
     title: "Behind the Waves",
     text: "by Lamarr Wilson",
     img: {
-      mobile: "sm-max:bg-behind-the-waves",
-      tablet: "sm:bg-behind-the-waves",
+      mobile:
+        "sm-max:bg-[url('/src/assets/images/new/webp-format/behind-the-waves-mobile.webp')]",
+      tablet:
+        "sm:bg-[url('/src/assets/images/new/webp-format/behind-the-waves-tablet.webp')]",
     },
   },
   {
     title: "Calm Waters",
     text: "by Samantha Brooke",
     img: {
-      mobile: "sm-max:bg-calm-waters",
-      tablet: "sm:bg-calm-waters",
+      mobile:
+        "sm-max:bg-[url('/src/assets/images/new/webp-format/calm-waters-mobile.webp')]",
+      tablet:
+        "sm:bg-[url('/src/assets/images/new/webp-format/calm-waters-tablet.webp')]",
     },
   },
   {
     title: "The Milky Way",
     text: "by Benjamin Cruz",
     img: {
-      mobile: "sm-max:bg-milky-way",
-      tablet: "sm:bg-milky-way",
+      mobile:
+        "sm-max:bg-[url('/src/assets/images/new/webp-format/milky-way-mobile.webp')]",
+      tablet:
+        "sm:bg-[url('/src/assets/images/new/webp-format/milky-way-tablet.webp')]",
     },
   },
   {
     title: "Night at The Dark Forest",
     text: "by Mohammed Abdul",
     img: {
-      mobile: "sm-max:bg-dark-forest",
-      tablet: "sm:bg-dark-forest",
+      mobile:
+        "sm-max:bg-[url('/src/assets/images/new/webp-format/night-at-forest-mobile.webp')]",
+      tablet:
+        "sm:bg-[url('/src/assets/images/new/webp-format/night-at-forest-tablet.webp')]",
     },
   },
   {
     title: "Somwarpet’s Beauty",
     text: "by Michelle",
     img: {
-      mobile: "sm-max:bg-somwarpet",
-      tablet: "sm:bg-somwarpet",
+      mobile:
+        "sm-max:bg-[url('/src/assets/images/new/webp-format/somwarpets-beauty-mobile.webp')]",
+      tablet:
+        "sm:bg-[url('/src/assets/images/new/webp-format/somwarpets-beauty-tablet.webp')]",
     },
   },
   {
     title: "Land of Dreams",
     text: "by William Malcolm",
     img: {
-      mobile: "sm-max:bg-land-of-dreams-mobile",
-      tablet: "sm:bg-land-of-dreams-tablet",
+      mobile:
+        "sm-max:bg-[url('/src/assets/images/new/webp-format/land-of-dreams-mobile.webp')]",
+      tablet:
+        "sm:bg-[url('/src/assets/images/new/webp-format/land-of-dreams-tablet.webp')]",
     },
   },
 ];

@@ -18,11 +18,11 @@ export default function HeroText({
       className={`relative flex ${
         card
           ? "h-auto w-[80%] lg:my-16-8 lg:w-[80%] sm-max:h-[35%]"
-          : "h-full sm:basis-[60%] lg:basis-[65%] xl:basis-[30%] sm-max:h-[55%] sm-max:w-screen"
+          : "h-full sm:basis-[60%] lg:basis-[65%] 2xl:basis-[30%] sm-max:h-auto sm-max:w-screen sm-max:py-24-8"
       } flex-row items-center justify-center ${bg} ${color} sm-max:order-2 
       ${
         stories &&
-        `h-[80%] items-center sm-max:${bg} sm:ml-16-8 md:w-[80%] lg:ml-32-8 sm-max:bg-black sm-max:py-10`
+        `h-[80%] items-center sm-max:${bg} sm:ml-16-8 sm:basis-[80%] lg:ml-32-8 xl:basis-[50%] sm-max:bg-black sm-max:py-10`
       }
       `}
     >

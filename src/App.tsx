@@ -3,6 +3,8 @@ import Home from "./pages/Home";
 import Stories from "./pages/Stories";
 import Features from "./pages/Features";
 import Pricing from "./pages/Pricing";
+import "./Styles/main.css";
+
 function App() {
   return (
     <Routes>

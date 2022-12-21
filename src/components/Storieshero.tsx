@@ -2,7 +2,7 @@ import HeroText from "./hero/Herotext";
 
 export default function StoriesHero() {
   return (
-    <section className="relative flex w-full items-center bg-moon-of-appalacia bg-cover bg-center bg-no-repeat after:absolute after:top-0 after:left-0 after:z-10 after:h-full after:w-full sm:h-[650px] lg:h-[650px] sm-max:h-[100vh] sm-max:items-end sm-max:bg-[length:100vw_50vh] sm-max:bg-top">
+    <section className="relative flex w-full items-center bg-cover bg-center bg-no-repeat sm:h-[650px] sm:bg-[url('/src/assets/images/new/webp-format/moon-of-appalacia-tablet.webp')] lg:h-[650px] lg:bg-[url('/src/assets/images/new/webp-format/moon-of-appalacia-desktop.webp')] sm-max:h-[100vh] sm-max:items-end sm-max:bg-[url('/src/assets/images/new/webp-format/moon-of-appalacia-mobile.webp')] sm-max:bg-[length:100vw_50vh] sm-max:bg-top">
       <HeroText
         color="text-white"
         ctatext="read the story"
@@ -13,7 +13,3 @@ export default function StoriesHero() {
     </section>
   );
 }
-
-// sm:after:bg-gradient-to-ro
-// from-[hsla(0,0%,0%,0)]
-// to-[rgba(255,255,255,0)]
