@@ -20,7 +20,7 @@ export default function Footer() {
       <section className="flex h-[50%] w-[30%] flex-col items-end justify-between md-max:h-[30%] md-max:w-[90%] md-max:items-center md-max:py-32-8">
         <CtaBtn
           color="text-white"
-          card={true}
+          card={false}
           ctatext="get an invite"
           footer={true}
         />

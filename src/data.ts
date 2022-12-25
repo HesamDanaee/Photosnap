@@ -14,9 +14,12 @@ const heroData = [
     bg: "bg-black",
     color: "text-white",
     img: {
-      mobile: "sm-max:bg-[url('/src/assets/images/new/journalist-mobile.jpg')]",
-      tablet: "sm:bg-[url('/src/assets/images/new/journalist-tablet.jpg')]",
-      desktop: "lg:bg-[url('/src/assets/images/new/journalist-desktop.jpg')]",
+      mobile:
+        "sm-max:bg-[url('/src/assets/images/new/webp-format/journalist-mobile.webp')]",
+      tablet:
+        "sm:bg-[url('/src/assets/images/new/webp-format/journalist-tablet.webp')]",
+      desktop:
+        "lg:bg-[url('/src/assets/images/new/webp-format/journalist-desktop.webp')]",
     },
   },
   {

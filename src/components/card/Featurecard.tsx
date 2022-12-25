@@ -8,7 +8,7 @@ export default function FeatureCard({
   text: string;
 }) {
   return (
-    <div className="flex h-[280px] w-full max-w-[400px] flex-col items-center justify-center ">
+    <div className="my-8-8 flex h-[280px] w-full max-w-[400px] flex-col items-center justify-center sm:my-16-8 ">
       <div className="flex w-full max-w-[70%] flex-col items-center justify-between text-center">
         {/* Feature Image */}
         <img

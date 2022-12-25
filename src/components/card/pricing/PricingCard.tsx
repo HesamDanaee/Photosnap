@@ -19,7 +19,7 @@ export default function PricingCard({
 }) {
   return (
     <div
-      className={`relative flex h-[400px]  w-[300px] px-24-8 text-center  shadow-md transition-[box-shadow] first-letter:duration-300 hover:shadow-lg sm:grid sm:h-[270px] sm:w-[90%] sm:grid-cols-[50%_25%] sm:grid-rows-3 sm:items-center sm:justify-between sm:justify-items-start sm:text-left
+      className={`relative flex h-[400px] w-[300px] px-24-8 text-center  shadow-md transition-[box-shadow] first-letter:duration-300 hover:shadow-lg sm:grid sm:h-[270px] sm:w-[90%] sm:grid-cols-[50%_25%] sm:grid-rows-3 sm:items-center sm:justify-between sm:justify-items-start sm:text-left
       lg:flex lg:h-[450px] lg:w-[350px] lg:flex-col
        lg:py-64-8 lg:text-center sm-max:flex-col sm-max:items-center sm-max:justify-center md-max:grid-cols-[60%_25%] lg-max:p-32-8
        ${

@@ -10,6 +10,7 @@ import FeatureCard from "../components/card/Featurecard";
 import { featuresData2 } from "../data";
 import BetaCard from "../components/card/BetaCard";
 import Footer from "../components/Footer";
+import { LazyLoadComponent } from "react-lazy-load-image-component";
 
 export default function Features() {
   const { active, handleActive } = useActive();
@@ -45,7 +46,9 @@ export default function Features() {
       <FeatureContainer>
         {featuresData2.map(({ title, text, img }, index) => {
           return (
-            <FeatureCard key={index} title={title} text={text} src={img} />
+            <LazyLoadComponent>
+              <FeatureCard key={index} title={title} text={text} src={img} />
+            </LazyLoadComponent>
           );
         })}
       </FeatureContainer>

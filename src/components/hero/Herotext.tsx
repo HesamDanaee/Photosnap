@@ -9,7 +9,7 @@ export default function HeroText({
   bg,
   color,
   card = false,
-  stories,
+  stories = false,
   bar = false,
   cta = true,
 }: HeroTextContent) {
@@ -22,7 +22,7 @@ export default function HeroText({
       } flex-row items-center justify-center ${bg} ${color} sm-max:order-2 
       ${
         stories &&
-        `h-[80%] items-center sm-max:${bg} sm:ml-16-8 sm:basis-[80%] lg:ml-32-8 xl:basis-[50%] sm-max:bg-black sm-max:py-10`
+        `h-[80%] items-center sm-max:h-[60%] sm-max:${bg} sm:ml-16-8 sm:basis-[80%] lg:ml-32-8 xl:basis-[50%] sm-max:bg-black sm-max:py-10`
       }
       `}
     >

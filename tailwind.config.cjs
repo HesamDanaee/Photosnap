@@ -2,8 +2,6 @@
 module.exports = {
   content: [
     "./index.html",
-    "./src/Styles/main.css",
-    "./src/assets/images/new/webp-format/*.webp",
     "./src/*.{js,ts,jsx,tsx}",
     "./src/components/Header/*.{js,ts,jsx,tsx}",
     "./src/pages/**/**/**/*.{js,ts,jsx,tsx}",
